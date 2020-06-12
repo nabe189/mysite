@@ -11,7 +11,6 @@
 
 <script>
 import Navbar from '@/components/Navbar'
-
 export default {
     name: 'App',
     components: {
@@ -21,7 +20,6 @@ export default {
 </script>
 
 <style>
-
 .wrapper {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -30,9 +28,8 @@ export default {
     background-color: black;
     width: 100%;
 }
-
 @media (min-width: 576px) {
     .wrapper {
         overflow: hidden;
     }
-}
+} 

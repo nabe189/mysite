@@ -34,7 +34,6 @@
 <script>
 /* eslint camelcase: "off" */
 // @ is an alias to /src
-
 export default {
     name: 'Home',
     components: {
@@ -86,25 +85,21 @@ export default {
     overflow-y: scroll;
     max-height: 45vh;
 }
-
 /*スクロールバー全体*/
 ::-webkit-scrollbar {
     width: 7px;
     background-color: white;
 }
-
 /*スクロールバーの軌道*/
 ::-webkit-scrollbar-track {
     border-radius: 5px;
 }
-
 /*スクロールバーの動く部分*/
 ::-webkit-scrollbar-thumb {
     background-color: gray;
     border-radius: 5px;
     box-shadow:0 0 0 1px rgba(255, 255, 255, 1.0);
 }
-
 .bg {
     width: 100%;
     height: 100%;
@@ -117,9 +112,7 @@ export default {
     background-size: cover;
     background-image: url("~@/assets/les_miserables.jpg");
 }
-
 .Home_info{
     background-color: white;
 }
-
 </style>
